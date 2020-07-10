@@ -10,7 +10,22 @@ function universityRegisterSearch(){
 }
 
 function universitySearchResults(){
-    return 'congrats re';
+    $professors = new WP_QUERY(array(
+        'post_type' => 'professor'
+    ));
+
+    $professorResults = array();
+
+    while($professors->have_posts()){
+        $professors->the_post();
+        array_push($professorResults, array(
+            'title' => get_the_title(),
+            'url' => get_the_permalink(),
+            
+        ));
+    };
+
+    return $professorResults;
 }
 
 

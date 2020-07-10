@@ -19,3 +19,65 @@
 [07-Jul-2020 09:51:25] NOTICE: exiting, bye-bye!
 [07-Jul-2020 09:51:31] NOTICE: fpm is running, pid 3301
 [07-Jul-2020 09:51:31] NOTICE: ready to handle connections
+[07-Jul-2020 15:05:02] NOTICE: Terminating ...
+[07-Jul-2020 15:05:02] NOTICE: Terminating ...
+[07-Jul-2020 15:05:02] NOTICE: exiting, bye-bye!
+[07-Jul-2020 15:05:08] NOTICE: fpm is running, pid 5969
+[07-Jul-2020 15:05:08] NOTICE: ready to handle connections
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP Warning:  opendir(/Users/51024/Local Sites/fictional-university/app/public/wp-content/mu-plugins): failed to open dir: Too many open files in system in /Users/51024/Local Sites/fictional-university/app/public/wp-includes/load.php on line 636"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP Stack trace:"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   1. {main}() /Users/51024/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:0"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   2. require_once() /Users/51024/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:22"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   3. require_once() /Users/51024/Local Sites/fictional-university/app/public/wp-load.php:37"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   4. require_once() /Users/51024/Local Sites/fictional-university/app/public/wp-config.php:77"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   5. wp_get_mu_plugins() /Users/51024/Local Sites/fictional-university/app/public/wp-settings.php:301"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   6. opendir() /Users/51024/Local Sites/fictional-university/app/public/wp-includes/load.php:636"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP Warning:  file_get_contents(/Users/51024/Local Sites/fictional-university/app/public/wp-includes/blocks/shortcode/block.json): failed to open stream: Too many open files in system in /Users/51024/Local Sites/fictional-university/app/public/wp-includes/blocks/shortcode.php on line 25"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP Stack trace:"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   1. {main}() /Users/51024/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:0"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   2. require_once() /Users/51024/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:22"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   3. require_once() /Users/51024/Local Sites/fictional-university/app/public/wp-load.php:37"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   4. require_once() /Users/51024/Local Sites/fictional-university/app/public/wp-config.php:77"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   5. do_action() /Users/51024/Local Sites/fictional-university/app/public/wp-settings.php:540"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   6. WP_Hook->do_action() /Users/51024/Local Sites/fictional-university/app/public/wp-includes/plugin.php:478"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   7. WP_Hook->apply_filters() /Users/51024/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   8. register_block_core_shortcode() /Users/51024/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   9. file_get_contents() /Users/51024/Local Sites/fictional-university/app/public/wp-includes/blocks/shortcode.php:25"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /Users/51024/Local Sites/fictional-university/app/public/wp-includes/blocks/shortcode.php on line 31"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP Stack trace:"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   1. {main}() /Users/51024/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:0"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   2. require_once() /Users/51024/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:22"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   3. require_once() /Users/51024/Local Sites/fictional-university/app/public/wp-load.php:37"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   4. require_once() /Users/51024/Local Sites/fictional-university/app/public/wp-config.php:77"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   5. do_action() /Users/51024/Local Sites/fictional-university/app/public/wp-settings.php:540"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   6. WP_Hook->do_action() /Users/51024/Local Sites/fictional-university/app/public/wp-includes/plugin.php:478"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   7. WP_Hook->apply_filters() /Users/51024/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   8. register_block_core_shortcode() /Users/51024/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   9. array_merge() /Users/51024/Local Sites/fictional-university/app/public/wp-includes/blocks/shortcode.php:31"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP Warning:  file_get_contents(/Users/51024/Local Sites/fictional-university/app/public/wp-includes/blocks/social-link/block.json): failed to open stream: Too many open files in system in /Users/51024/Local Sites/fictional-university/app/public/wp-includes/blocks/social-link.php on line 38"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP Stack trace:"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   1. {main}() /Users/51024/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:0"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   2. require_once() /Users/51024/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:22"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   3. require_once() /Users/51024/Local Sites/fictional-university/app/public/wp-load.php:37"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   4. require_once() /Users/51024/Local Sites/fictional-university/app/public/wp-config.php:77"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   5. do_action() /Users/51024/Local Sites/fictional-university/app/public/wp-settings.php:540"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   6. WP_Hook->do_action() /Users/51024/Local Sites/fictional-university/app/public/wp-includes/plugin.php:478"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   7. WP_Hook->apply_filters() /Users/51024/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   8. register_block_core_social_link() /Users/51024/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   9. file_get_contents() /Users/51024/Local Sites/fictional-university/app/public/wp-includes/blocks/social-link.php:38"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /Users/51024/Local Sites/fictional-university/app/public/wp-includes/blocks/social-link.php on line 45"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP Stack trace:"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   1. {main}() /Users/51024/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:0"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   2. require_once() /Users/51024/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:22"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   3. require_once() /Users/51024/Local Sites/fictional-university/app/public/wp-load.php:37"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   4. require_once() /Users/51024/Local Sites/fictional-university/app/public/wp-config.php:77"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   5. do_action() /Users/51024/Local Sites/fictional-university/app/public/wp-settings.php:540"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   6. WP_Hook->do_action() /Users/51024/Local Sites/fictional-university/app/public/wp-includes/plugin.php:478"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   7. WP_Hook->apply_filters() /Users/51024/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   8. register_block_core_social_link() /Users/51024/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287"
+[07-Jul-2020 17:14:15] WARNING: [pool www] child 5978 said into stderr: "NOTICE: PHP message: PHP   9. array_merge() /Users/51024/Local Sites/fictional-university/app/public/wp-includes/blocks/social-link.php:45"
+[09-Jul-2020 09:37:54] NOTICE: Terminating ...
+[09-Jul-2020 09:37:54] NOTICE: Terminating ...
+[09-Jul-2020 09:37:54] NOTICE: exiting, bye-bye!
+[09-Jul-2020 09:44:32] NOTICE: fpm is running, pid 2013
+[09-Jul-2020 09:44:32] NOTICE: ready to handle connections

@@ -339,3 +339,6 @@ Stack trace:
 [06-Jul-2020 18:29:06 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/51024/Local Sites/fictional-university/app/public/wp-content/themes/fictional university theme/functions.php on line 19
 [06-Jul-2020 22:31:01 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/51024/Local Sites/fictional-university/app/public/wp-content/themes/fictional university theme/front-page.php on line 112
 [06-Jul-2020 22:31:08 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/51024/Local Sites/fictional-university/app/public/wp-content/themes/fictional university theme/front-page.php on line 112
+[10-Jul-2020 16:57:50 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/51024/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 10
+[10-Jul-2020 16:57:54 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/51024/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 10
+[10-Jul-2020 16:57:57 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/51024/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 10
